@@ -14,7 +14,7 @@
 ## 安装方法（WorkBuddy）
 1. 去 [open.mcd.cn/mcp](https://open.mcd.cn/mcp) 用手机号登录，激活并复制 MCP Token。
 2. WorkBuddy 左侧「专家·技能·连接器」→「连接器」→ 右上角「自定义连接器」→「配置 MCP」。
-3. 填入 `mcp-config.example.json` 的内容，把 `YOUR_MCP_TOKEN` 换成你的 Token，保存并启用。
+3. 填入 `mcp-config.example.json` 的内容，把 `${MCD_MCP_TOKEN}` 换成你在 open.mcd.cn 申请的 Token，保存并启用。
 4. 把本仓库作为 Skill 导入（或将 `SKILL.md` 内容放进你的 Skill 目录）。
 5. 对话框直接说需求，例如："附近麦当劳有什么券能领？""我想吃巨无霸套餐，到手多少钱？"
 
